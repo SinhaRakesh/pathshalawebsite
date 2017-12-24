@@ -1,0 +1,58 @@
+.contact2_area{
+    padding: 0 0 95px;
+    .contact2_inner{
+        h3{
+            padding-bottom: 60px;
+            font: normal 22px $robotos;
+            color: $base2;
+        }
+        .single_address{
+            padding: 0 15px 0 0;
+            
+            .single_address_inner{
+                padding-left: 25px;
+                background: #f3f7fb;
+                border-bottom: 3px solid #ffca91;
+                h4{
+                    font: bold 20px/1 $roboto;
+                    color: #49575f;
+                    text-transform: uppercase;
+                    padding: 70px 0 35px;
+                    letter-spacing: 2px;
+                }
+                h5{
+                    font: normal 16px/26px $roboto;
+                    color: $base4;
+                    max-width: 305px;
+                    padding-bottom: 25px;
+                }
+                ul{
+                    
+                    margin-bottom: 25px;
+                    li{
+                        a{
+                            padding: 0 0 20px;
+                            i{
+                                color: $base4;
+                                font-size: 16px;
+                            }
+                            span{
+                                font: normal 14px $roboto;
+                                color: $base4;
+                                letter-spacing: 0.2px;
+                                padding-left: 10px;
+                            }
+                            &:hover{
+                                background: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+            #googleMap{
+                width: 100%;
+                height: 350px;
+            }
+        }
+    }    
+}

@@ -1,0 +1,101 @@
+.project_area{
+    background: url(../img/project_bg.jpg) no-repeat scroll center;
+    position: relative;
+    background-size: cover;
+	background-attachment: fixed;
+    .media {
+    margin-top: 10px;
+    }
+    .single_project{
+        padding: 105px 0 0px 0;
+        .project_image{
+            padding:0px;
+            i{
+                font-size: 40px;
+                color: $base;
+                border: 1px dashed $base5;
+                border-radius: 50px;
+                padding: 16px;
+                text-align: center;
+                float: left;
+                margin: 0 18px 0 0;
+            }
+        }
+        h2{
+            font: 700 40px/1 $roboto;
+            color: $base5;
+            position: relative;
+            display: inline-block;
+            margin: 11px 0 0 0;
+            &:before{
+                content: "";
+                background: $base;
+                height: 2px;
+                width: 30px;
+                position: absolute;
+                top: 47px;
+                left: 3px;
+            }
+        }
+        p{
+            font: 400 28px/26px $roboto;
+            color: $base5;
+            margin: 33px 0 0px 0;
+        }
+    }
+        :first-child{
+            margin-top: 0;
+        }
+    .single_project.selected{
+        background: url(../img/project_middle.jpg) no-repeat scroll 0 0;
+        text-align: center;
+        padding: 160px 0 130px;
+        position: relative;
+        i{
+            font-size: 50px;
+            color: $base2;
+            background: #c1e5e5;
+            width: 118px;
+            height: 118px;
+            border-radius: 100px;
+            padding: 34px 0 0 0;
+            float: none;
+        }
+        h2{
+            font: 700 26px/26px $roboto;
+            letter-spacing: .2px;
+            color: $base5;
+            margin: 48px 0 0 0;
+            &:before{
+                display:none;
+            }
+        }
+        p{
+            font: 400 14px/26px $roboto;
+            letter-spacing: .2px;
+            color: $base5;
+            margin: 14px 0 0 0;
+            padding: 0 63px;
+            z-index: 2;
+            position: relative;
+        }
+        &:before{
+            content: '';
+            background: rgba(12,189,170,0.90);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+    }
+    &:before{
+        content: '';
+        background: rgba(36,44,66,0.94);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+}

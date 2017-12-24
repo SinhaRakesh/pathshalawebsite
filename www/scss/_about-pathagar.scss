@@ -1,0 +1,97 @@
+.about_pathagar_area{
+    background: $base2;
+    .about_pathagar{
+        .media{
+            .media-left{
+                padding-right: 50px;
+                a{
+                    img{
+                        
+                    }
+                }
+            }
+            .media-body{
+                max-width: 920px;
+                .section_title_left{
+                    padding: 115px 0 0;
+                    h2{
+                        color: $base5;
+                    }
+                    .title_border{
+                        .icon_side{
+                            &:after{
+                                background: #49575f; 
+                            }
+                        }
+                    }
+                    p{
+                        color: $base4;
+                    }
+                }
+                .pathagar_details{
+                    padding: 45px 0 0;
+                    h6{
+                        font: normal 14px/26px $roboto;
+                        color: #cfd8df;
+                        letter-spacing: 0.2px;
+                    }
+                    p{
+                        font: bold 14px/26px $roboto;
+                        color: #cfd8df;
+                        letter-spacing: 0.4px;
+                        padding-top: 25px;
+                        font-style: italic;
+                        a{
+                            color: #fafafa;
+                        }
+                    }
+                    button{
+                        background: $base;
+                        border: 0;
+                        font: bold 14px $roboto;
+                        color: $base5;
+                        letter-spacing: 0.2px;
+                        text-transform: uppercase;
+                        width: 210px;
+                        height: 54px;
+                        margin-top: 40px;
+                        border-radius: 3px;
+                    }
+                }
+                .overview_area{
+                    padding-top: 50px;
+                    h3{
+                        font: normal 22px $roboto;
+                        color: $base5;
+                        letter-spacing: 0.2px;
+                        text-transform: uppercase;
+                        padding-bottom: 30px;
+                    }
+                    .progress_area{
+                        border-top: 1px dashed $base6;
+                        .signle_progress{
+                            padding-top: 40px;
+                            h6{
+                                font: normal 14px $roboto;
+                                color: $base5;
+                                letter-spacing: 0.2px;
+                                padding-bottom: 20px;
+                            }
+                            .progress{
+                                height: 24px;
+                                margin: 0;
+                                .progress-bar{
+                                    background: $base;
+                                    span{
+                                        font: bold 14px/24px $roboto;
+                                        color: $base2;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

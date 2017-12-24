@@ -1,0 +1,49 @@
+.why_choose_area{
+    padding: 90px 0;
+    .why_choose{
+        .why_choose_left{
+            .img_part{
+                text-align: center;
+                background: $base5;
+                position: relative;
+                &:before{
+                    content: '';
+                    position: absolute;
+                    top: 33px;
+                    left: 33px;
+                    right: 33px;
+                    bottom: 33px;
+                    display: block;
+                    background: #fff;
+                }
+                img{
+                    position: relative;
+                    bottom: 33px;
+                }
+            }
+        }
+        .why_choose_right{
+            padding-left: 55px;
+            .choose_info{
+                p{
+                    margin: 0;
+                    font: normal 14px/26px $roboto;
+                    color: $base4;
+                    padding-bottom: 28px;
+                }
+                a{
+                    font: bold 14px/50px $roboto;
+                    color: $base5;
+                    background: $base;
+                    text-align: center;
+                    width: 208px;
+                    height: 50px;
+                    display: inline-block;
+                    text-transform: uppercase;
+                    border-radius: 2px;
+                    letter-spacing: .2px;
+                }
+            }
+        }
+    }
+}

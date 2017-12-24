@@ -1,0 +1,42 @@
+.clients_area{
+    background: $base8;
+    padding: 108px 0 101px 0;
+    .client_slider{
+        .single_client{
+            border: 2px solid #ecf0f4;
+            img{
+                
+            }
+        }
+        .owl-controls{
+            margin: 0;
+            position: absolute;
+            top: -52px;
+            right: 0;
+            .owl-nav{
+                div{
+                    padding: 7px 14px;
+                    margin: 0;
+                    background: none;
+                    font-size: 16px;
+                    border: 1px solid $base7;
+                    border-radius: 0px;
+                    line-height: 0px;
+                    i{
+                        color: $base6;
+                    }
+                    &:hover i{
+                        color: $base;
+                    }
+                    &:hover{
+                        border: 1px solid $base;
+                        background: none;
+                    }
+                }
+                .owl-prev{
+                    margin:0 10px 0 0 
+                }
+            }
+        }
+    }
+}

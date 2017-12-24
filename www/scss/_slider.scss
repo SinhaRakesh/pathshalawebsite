@@ -1,0 +1,37 @@
+.slider_area{
+    background: url(../img/slider.jpg) no-repeat scroll 0 0;
+    position:relative;
+    .slider_content{
+//        transform: translateY(-50%);
+//        top: 50%;
+        position: absolute;
+        h2{
+            font:700 60px/80px $roboto;
+            color:#fafafa;
+            text-transform: uppercase;
+            span{
+                color:$base;
+            }
+        }
+        p{
+            font: 400 14px/26px $roboto;
+            color: $base3;
+            margin: 26px 0 32px 0px;
+        }
+        a{
+            font: 700 16px/16px $roboto;
+            color: $base5;
+            background: $base;
+            padding: 24px 58px;
+            display: inline-block;
+            text-transform: uppercase;
+            border-radius: 2px;
+            letter-spacing: .2px;
+        }
+    }
+    .slider_image{
+        img{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.course_timing_area{
+    background: #242c42;
+    padding: 53px 0 43px;
+    .container{
+        position: relative;
+        .course_timing_content{
+            h2{
+                font:700 20px/30px 'roboto';
+                letter-spacing:.2px;
+                text-transform: uppercase;
+                color:#fafafa;
+                margin: 0 0 12px;
+                span{
+
+                }
+            }
+            p{
+                font:400 14px/24px 'roboto';
+                letter-spacing:.2px;
+                color:#cfd8df;
+            }
+        }
+        .course_timing_select{
+            float: right;
+            transform: translateY(50%);
+            a{
+                font: 700 16px/16px 'roboto';
+                letter-spacing: .2px;
+                color: $base;
+                border: 2px solid $base;
+                padding: 20px 44px;
+                text-transform: uppercase;
+                border-radius: 3px;
+                display: inline-block;
+                &:hover{
+                    background: $base;
+                    color: #fff;
+                }
+            }
+        }
+        &:before{
+            content: "";
+            background: url(../img/clock.png) no-repeat scroll 0 0;
+            width: 260px;
+            position: absolute;
+            height: 260px;
+            top: -40px;
+            left: -300px;
+        }
+    }
+}

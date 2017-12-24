@@ -1,0 +1,189 @@
+footer{
+    background: $base2;
+    padding: 85px 0 0;
+    .footer_top{
+        padding: 0 0 110px;
+        .footer_sidebar{
+            .widget{
+                padding-top: 30px;
+                .pt40{
+                    padding-top: 40px;
+                }
+                &:first-child{
+                    padding-top: 0;
+                }
+                .widget_title{
+                    h6{
+                        font: bold 15px/26px $roboto;
+                        color: $base5;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        letter-spacing: 0.8px;
+                        position: relative;
+                        &:before{
+                            content: '';
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            display: block;
+                            height: 1px;
+                            width: 189px;
+                            background: #49575f;
+                        }
+                    }
+                }
+                .widget_inner{
+                    padding-top: 48px;
+                    button{
+                        border: 1px solid #49575f;
+                        background: transparent;
+                        font: normal 14px $roboto;
+                        color: $base4;
+                        padding: 8px 20px;
+                        margin: 0 10px 12px 0;
+                        &:hover{
+                            background: $base;
+                            color: #fff;
+                            border: 1px solid $base;
+                        }
+                    }
+                }
+            }
+            .widget1{
+                p{
+                    font: normal 14px/26px $roboto;
+                    color: $base4;
+                    padding: 40px 0 60px;
+                    max-width: 248px;
+                }
+                .widget_inner{
+                    padding-top: 20px;
+                }
+            }
+            .widget2{
+                .widget_inner{
+                    display: block;
+                    overflow: hidden;
+                    ul{
+                        width: 50%;
+                        float: left;
+                        li{
+                            a{
+                                padding: 0;
+                                line-height: 26px;
+                                i{
+                                    font-size: 25px;
+                                    color: $base;
+                                    vertical-align: middle;
+                                    @include transition;
+                                }
+                                span{
+                                    font: normal 14px $roboto;
+                                    color: $base4;
+                                    @include transition;
+                                }
+                                &:hover{
+                                    background: transparent;
+                                    i{
+                                        color: $base4;
+                                        transform: scale(1.5,1.5);
+                                    }
+                                    span{
+                                        color: $base;
+                                        padding-left: 8px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .widget3{
+                padding-right: 0;
+            }
+            .widget4{
+                .widget_inner{
+                    &:last-child{
+                        padding-top: 20px;
+                    }
+                    .new_post{
+                        .item{
+                            .item_left{
+                                a{
+                                    img{
+                                        
+                                    }
+                                }
+                            }
+                            .item_body{
+                                padding: 14px 0;
+                                h5{
+                                    font: normal 14px $roboto;
+                                    color: $base5;
+                                }
+                                a{
+                                    
+                                    i{
+                                        color: $base4;
+                                    }
+                                    span{
+                                        font: italic 12px $roboto;
+                                        color: $base4;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .social_icon{
+                    .nav{
+                        li{
+                            display: inline-block;
+                            margin-right: 8px;
+                            background: #2c3754;
+                            border-radius: 5px;
+                            a{
+                                padding: 0;
+                                display: block;
+                                height: 30px;
+                                width: 30px;
+                                text-align: center;
+                                color: #86a2aa;
+                                border-radius: 5px;
+                                i{
+                                    line-height: 30px;
+                                }
+                                &:hover{
+                                    background: $base;
+                                    color: $base5;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer_bottom_area{
+        .footer_bottom{
+            text-align: center;
+            padding: 80px 0;
+            border-top: 1px dashed #49575f;
+            p{
+                font: bold 13px $open;
+                color: $base4;
+                a{
+                    font: normal 12px $roboto;
+                    color: $base;
+                    text-transform: uppercase;
+                    letter-spacing: 0.8px;
+                }
+                span{
+                    font: bold 13px $roboto;
+                    letter-spacing: 0.8px;
+                    color: #cfd8df;
+                }
+            }
+        }
+    }
+}

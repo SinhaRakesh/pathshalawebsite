@@ -1,0 +1,186 @@
+.registration_area{
+    background: $base2;
+    padding: 91px 0 100px;
+    .registration_slid{
+        >h2{
+            font: 400 30px/1 $robotos;
+            letter-spacing: .2px;
+            color: $base3;
+            text-transform: uppercase;
+            border-bottom: 1px dashed $base6;
+            padding: 0 0 25px;
+            margin: 30px 0px 0 0px;
+        }
+    }
+    .registration_slider{
+        margin: 60px 0 0 0;
+        .single_registration_slider{
+            .author_details{
+                overflow: hidden;
+                padding: 0 0 24px 0;
+                img{
+                    width:75px;
+                    border-radius: 50px;
+                    margin:0 25px 0 0;
+                    float: left;
+                }
+                h2{
+                    font: 400 16px/33px $robotos;
+                    letter-spacing: .2px;
+                    color: $base5;
+                    margin: 6px 0 0 0px;
+                    display: inline-block;
+                }
+                h3{
+                    font: 400 16px/26px $roboto;
+                    letter-spacing: .2px;
+                    color: $base4;
+                    position: relative;
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        width: 47px;
+                        height: 1px;
+                        background: $base;
+                        bottom: -12px;
+                    }
+                }
+            }
+            p{
+                font: 400 14px/26px $roboto;
+                letter-spacing: .2px;
+                color: $base4;
+            }
+        }
+        .owl-controls{
+            margin: 0;
+            position: absolute;
+            top: -113px;
+            right: 0;
+            .owl-nav{
+                div{
+                    padding: 7px 14px;
+                    margin: 0;
+                    background: none;
+                    font-size: 16px;
+                    border: 1px solid $base6;
+                    border-radius: 0px;
+                    line-height: 0px;
+                    i{
+                        color: $base6;
+                    }
+                    &:hover i{
+                        color: $base;
+                    }
+                    &:hover{
+                        border: 1px solid $base;
+                        background: none;
+                    }
+                }
+                .owl-prev{
+                    margin:0 10px 0 0 
+                }
+            }
+        }
+    }
+    .registration_content{
+        .registration_now{
+            background: #fff;
+            border-radius: 2px;
+            padding: 50px 22px 33px;
+            margin: 0 0 20px;
+            h3{
+                font: 400 22px/26px $roboto;
+                color: $base6;
+                letter-spacing: .2px;
+                text-align: center;
+                span{
+                    color: $base
+                }
+            }
+            h2{
+                font:700 40px/1 $robotos;
+                letter-spacing:.2px;
+                color: $base2;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 15px 0 30px;
+            }
+            p{
+                font:400 14px/26px $roboto;
+                letter-spacing:.2px;
+                color: $base4;
+            }
+        }
+        .registration_count{
+            background: #fff;
+            border-radius: 2px;
+            overflow: hidden;
+            padding: 14px 0 17px;
+            .single_count{
+                float: left;
+                text-align: center;
+                width: 33.33%;
+                h3{
+                    font: 400 12px/24px $roboto;
+                    color: $base2;
+                    letter-spacing: .2px;
+                    text-transform: uppercase;
+                    margin: 0 0 0px;
+                }
+                h2{
+                    font: 700 28px/26px $roboto;
+                    color: $base;
+                    letter-spacing: .2px;
+                }
+            }
+            #example{
+                margin: 0;
+                li{
+                    p{
+                        font: 400 12px/24px $roboto;
+                        color: $base2;
+                        letter-spacing: .2px;
+                        text-transform: uppercase;
+                        margin: 0 0 0px;
+                    }
+                    span{
+                        font: 700 28px/26px $roboto;
+                        color: $base;
+                        letter-spacing: .2px;
+                    }
+                }
+            }
+        }
+        a{
+            font: 700 14px/11px $roboto;
+            color: $base5;
+            letter-spacing: .2px;
+            text-transform: uppercase;
+            background: $base;
+            display: block;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 2px;
+            margin: 20px 0 0 0;
+        }
+    }
+}
+
+.registration2_area{
+    background: #f3f7fb;
+    .registration_slid{
+        >h2{
+            color: $base2;
+        }
+    }
+    .registration_slider{
+        .single_registration_slider{
+            .author_details{
+                h2{
+                    color: #49575f;
+                }
+            }
+        }
+    }
+}

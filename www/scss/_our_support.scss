@@ -1,0 +1,35 @@
+.our_support_area{
+    padding: 100px 0 95px;
+	background: #f3f7fa;
+    .our_support{
+        .item_area{
+            text-align: center;
+            a{
+                display: block;
+                i{
+                    font-size: 36px;
+                    color: $base;
+                    padding: 25px;
+                    border: 1px dashed $base4;
+                    border-radius: 50%;
+                }
+            }
+            h4{
+                font: normal 18px $robotos;
+                color: $base2;
+                text-transform: uppercase;
+                margin: 0;
+                letter-spacing: 0.6px;
+                border-bottom: 1px solid $base5;
+                padding: 28px 0 18px;
+            }
+            p{
+                font: normal 14px/26px $roboto;
+                color: $base4;
+                letter-spacing: 0.6px;
+                margin: 0;
+                padding-top: 24px;
+            }
+        }
+    }
+}

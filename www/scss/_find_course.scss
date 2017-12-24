@@ -1,0 +1,104 @@
+.find_course_area{
+    padding: 80px 0;
+    background: url(../img/find_course/1.jpg) no-repeat scroll center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+    &:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: block;
+        background: rgba(36,44,66,0.7);
+    }
+    .find_course{
+        position: relative;
+        h2{
+            font: bold 30px/1 $robotos;
+            color: $base5;
+            text-transform: uppercase;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        .find_course_inner{
+            .search_area{
+                .bootstrap-select{
+                    .btn-info{
+                        background: #fff;
+                        font: normal 14px $roboto;
+                        color: #a4abaf;
+                        text-transform: uppercase;
+                        border: 0;
+                        letter-spacing: 0.2px;
+                        padding: 6px 20px;
+                        width: 263px;
+                        height: 54px;
+                        &:focus{
+                            outline: none !important;
+                            box-shadow: none;
+                        }
+                    }
+                    .bs-caret{
+                        position: relative;
+                        &:before{
+                            content: '\f140';
+                            display: block;
+                            position: absolute;
+                            top: 0;
+                            color: #a4abaf;
+                            right: 0;
+                            font-size: 20px;
+                            font: normal normal normal 18px/1 "Material Design Icons";
+                        }
+                        .caret{
+                            display: none;
+                        }
+                    }
+                    .dropdown-menu{
+                        width: 265px;
+                        overflow: hidden;
+                        border: 0;
+                    }
+                }
+                .selectpicker{
+                    option{
+                        
+                    }
+                }
+                button{
+                    background: $base;
+                    width: 263px;
+                    height: 54px;
+                    display: block;
+                    text-align: center;
+                    border: 0;
+                    border-radius: 3px;
+                    i{
+                        font-size: 16px;
+                        line-height: 54px;
+                        color: $base5;
+                    }
+                    .text_area{
+                        font: bold 14px/54px $roboto;
+                        color: $base5;
+                        letter-spacing: 0.2px;
+                        text-transform: uppercase;
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.find_course2{
+    background: #f3f7fb;
+    padding: 63px 0;
+    &:before{
+        display: none;
+    }
+}

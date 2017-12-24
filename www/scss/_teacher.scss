@@ -1,0 +1,362 @@
+.teacher_area{
+    text-align: center;
+    background: $base8;
+    padding: 115px 0 90px;
+    .teacher_slider, .teacher_section{
+        margin: 100px 0 0;
+        .single_teacher{
+            float: left;
+            .teacher_image{
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .teacher_hover_content{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    background: rgba(12,189,170,0.80);
+                    height: 100%;
+                    display: block;
+                    @include transition;
+                    transform: scale(0,0);
+                    i{
+                        font-size: 36px;
+                        color: #fafafa;
+                        padding: calc(50% - 18px);
+                        cursor: pointer;
+                    }
+                    p{
+                        font: 400 14px/26px $roboto;
+                        color: $base5;
+                        padding: 0 32px;
+                        position: absolute;
+                        bottom: 80px;
+                        margin: 0;
+                    }
+                }  
+                .teacher_social{
+                    position: absolute;
+                    background: #fff;
+                    bottom: 0;
+                    width: 100%;
+                    a{
+                        padding: 18px 0 13px;
+                        display: inline-block;
+                        i{
+                            font-size: 20px;
+                            color: $base7;
+                            padding: 0 15px;
+                            border-right: 1px solid $base5;
+                            line-height: 7px;
+                        }
+                        &:hover i{
+                            color: $base;
+                        }
+                    }
+                } 
+            }
+            .teacher_content{
+                border-right: 1px solid $base3;
+                &:last-child{
+                    border-right: 0px solid $base3;
+                }
+                h2{
+                    font: 700 20px/26px "Roboto Slab", serif;
+                    color: #242c42;
+                    letter-spacing: .2px;
+                    text-transform: uppercase;
+                    margin: 35px 0 0px;
+                }
+                p{
+                    font: 400 16px/36px "Roboto", sans-serif;
+                    color: #8b9ea9;
+                    letter-spacing: .2px;
+                    margin: 0;
+                }
+            }
+            &:hover{
+                .teacher_hover_content{
+                    transform: scale(1,1);
+                }
+            }
+        }
+        .owl-controls{
+            margin: 0;
+            position: absolute;
+            top: -52px;
+            right: 0;
+            .owl-nav{
+                div{
+                    padding: 7px 14px;
+                    margin: 0;
+                    background: none;
+                    font-size: 16px;
+                    border: 1px solid $base7;
+                    border-radius: 0px;
+                    line-height: 0px;
+                    i{
+                        color: $base6;
+                    }
+                    &:hover i{
+                        color: $base;
+                    }
+                    &:hover{
+                        border: 1px solid $base;
+                        background: none;
+                    }
+                }
+                .owl-prev{
+                    margin:0 10px 0 0 
+                }
+            }
+        }
+    }
+    .teacher_section{
+        .single_teacher{
+            margin: 0 0 68px;
+            padding:0;
+        }
+    }
+}
+.teacher_page{
+    background: #fff;
+    .container{
+        .teacher_section{
+            text-align: center;
+            .modal{
+                .modal-dialog{
+                    width: 1046px;
+                    .modal-content{
+                        .modal-header{
+                            border-bottom: none;
+                        }
+                        .modal-body{
+                            padding: 58px 54px 108px 54px;
+                            display: inline-block;
+                            .modal_image{
+                                margin: 0 53px 0 0;
+                                float: left;
+                                img{
+                                    
+                                }
+                            }
+                            .modal_content{
+                                text-align: left;
+                                h2{
+                                    font: 700 28px/36px $robotos;
+                                    color: #4f504e;
+                                    letter-spacing: .2px;
+                                    text-transform: uppercase;
+                                    margin: 27px 0 0 0px;
+                                }
+                                h3{
+                                    font: 400 20px/36px $roboto;
+                                    color: #8b9ea9;
+                                    letter-spacing: .2px;
+                                    
+                                }
+                                .modal_skill{
+                                    position: relative;
+                                    margin: 25px 0 53px;
+                                    h6{
+                                        font: 400 14px/36px $roboto;
+                                        letter-spacing: .2px;
+                                        color: #242c42;
+                                    }
+                                    .progress{
+                                        height: 13px;
+                                        background: #cfd8df;
+                                        box-shadow: none;
+                                        width: 338px;
+                                        margin: 19px 0 0;
+                                        .progress-bar{
+                                            background: #0cbdaa;
+                                            span{
+                                                font: 700 14px/36px "Roboto", sans-serif;
+                                                letter-spacing: .2px;
+                                                color: #242c42;
+                                                font-style: italic;
+                                                position: absolute;
+                                                right: 195px;
+                                                top: 23px;
+                                            }
+                                            &:before{
+                                                content: '';
+                                                background: #cfd8df;
+                                                width: 283px;
+                                                height: 1px;
+                                                position: absolute;
+                                                right: 230px;
+                                                top: 39px;
+                                            }
+                                        }
+                                    }
+                                }
+                                p{
+                                    font: 400 14px/26px $roboto;
+                                    color: #8b9ea9;
+                                    letter-spacing: .2px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .single_teacher{
+            .teacher_image{
+                .teacher_social{
+                    position: absolute;
+                    background: #fff;
+                    bottom: 0;
+                    width: 100%;
+                    box-shadow: 0px 5px 18px -12px rgba(0,0,0,0.4);
+                    a{
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+//.teacher_area{
+//    text-align: center;
+//    background: $base8;
+//    padding: 115px 0 90px 0;
+//    .teacher_slider{
+//        margin: 103px 0 0 0;
+//        .single_teacher{
+//            overflow: hidden;
+//            .teacher_image{
+//                position: relative;
+//                &:before{
+//                    content: '';
+//                    position: absolute;
+//                    top: 0;
+//                    left: 0;
+//                    bottom: 0;
+//                    right: 0;
+//                    transform: scale(0,0);
+//                    background: rgba(12,189,170,0.80);
+//                    z-index: 1;
+//                    @include transition;
+//                }
+//                img{
+//                    width: 100%;
+//                }
+//                .teacher_hover_content{
+//                    position: absolute;
+//                    top: calc(50% - 80px);
+//                    left: -200%;
+//                    opacity: 0;
+//                    display: block;
+//                    @include transition;
+//                    z-index: 2;
+//                    i{
+//                        font-size: 36px;
+//                        color: #fafafa;
+//                        padding-bottom: 20px;
+//                    }
+//                    p{
+//                        font: 400 14px/26px $roboto;
+//                        color: $base5;
+//                        padding: 0 32px;
+//                        margin: 0;
+//                    }
+//                }  
+//                .teacher_social{
+//                    position: absolute;
+//                    background: #fff;
+//                    bottom: 0;
+//                    width: 100%;
+//                    z-index: 2;
+//                    a{
+//                        padding: 18px 0 13px;
+//                        display: inline-block;
+//                        i{
+//                            font-size: 20px;
+//                            color: $base7;
+//                            padding: 0 15px;
+//                            border-right: 1px solid $base5;
+//                            line-height: 7px;
+//                        }
+//                        &:hover i{
+//                            color: $base;
+//                        }
+//                    }
+//                } 
+//            }
+//            .teacher_content{
+//                border-right: 1px solid $base3;
+//                &:last-child{
+//                    border-right: 0px solid $base3;
+//                }
+//                h2{
+//                    font: 700 20px/36px $roboto;
+//                    color: $base2;
+//                    letter-spacing: .2px;
+//                    text-transform: uppercase;
+//                    margin: 30px 0 0px;
+//                }
+//                p{
+//                    font: 700 16px/22px $roboto;
+//                    color: $base4;
+//                    letter-spacing: .2px;
+//                    margin: 0;
+//                }
+//            }
+//            &:hover{
+//                .teacher_image{
+//                    &:before{
+//                        transform: scale(1,1);
+//                    }
+//                }
+//                .teacher_hover_content{
+//                    left: 0;
+//                    opacity: 1;
+//                }
+//            }
+//        }
+//        .owl-controls{
+//            margin: 0;
+//            position: absolute;
+//            top: -52px;
+//            right: 0;
+//            .owl-nav{
+//                div{
+//                    padding: 7px 14px;
+//                    margin: 0;
+//                    background: none;
+//                    font-size: 16px;
+//                    border: 1px solid $base7;
+//                    border-radius: 0px;
+//                    line-height: 0px;
+//                    i{
+//                        color: $base6;
+//                    }
+//                    &:hover i{
+//                        color: $base;
+//                    }
+//                    &:hover{
+//                        border: 1px solid $base;
+//                        background: none;
+//                    }
+//                }
+//                .owl-prev{
+//                    margin:0 10px 0 0 
+//                }
+//            }
+//        }
+//    }
+//}
+

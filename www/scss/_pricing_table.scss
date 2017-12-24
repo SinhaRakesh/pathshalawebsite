@@ -1,0 +1,91 @@
+.pricing_table{
+    .section_title{
+        padding-top: 120px;
+    }
+    .pricing_table_inner{
+        padding: 70px 0 100px;
+        .item{
+            text-align: center;
+            .basic_package{
+                background: #f3f7fa;
+                border-radius: 3px;
+                @include transition;
+                .head{
+                    padding: 54px 0 30px;
+                    h4{
+                        font: bold 18px $roboto;
+                        text-transform: uppercase;
+                        color: $base;
+                        letter-spacing: 0.2px;
+                        padding-bottom: 20px;
+                    }
+                    h2{
+                        font: 300 50px/1 $roboto;
+                        color: $base2;
+                        letter-spacing: 0.2px;
+                        span{
+                            font: normal 15px $roboto;
+                            color: $base4;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+                .pricing_list{
+                    ul{
+                        margin: 0 76px;
+                        padding: 20px 0;
+                        border-top: 1px dashed $base3;
+                        border-bottom: 1px dashed $base3;
+                        li{
+                            font: normal 12px/35px $roboto;
+                            color: $base4;
+                            span{
+                                font: bold 12px/35px $roboto;
+                                color: #49575f;
+                            }
+                        }
+                    }
+                }
+                .p-bottom{
+                    padding: 30px 0 55px;
+                    a{
+                        width: 118px;
+                        height: 34px;
+                        background: $base4;
+                        display: inline-block;
+                        font: bold 14px/34px $roboto;
+                        color: $base5;
+                        border-radius: 3px;
+                    }
+                }
+                &:hover{
+                    background: $base2;
+                    .head{
+                        h4{
+                            color: $base5;
+                        }
+                        h2{
+                            color: $base;
+                        }
+                    }
+                    .pricing_list{
+                        ul{
+                            border-top: 1px dashed #49575f;
+                            border-bottom: 1px dashed #49575f;
+                            li{
+                                span{
+                                    color: $base5;
+                                }
+                            }
+                        }
+                    }
+                    .p-bottom{
+                        a{
+                            background: $base;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

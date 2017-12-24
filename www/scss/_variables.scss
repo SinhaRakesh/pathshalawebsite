@@ -1,0 +1,200 @@
+// Variables
+
+//Fonts 
+$roboto: 'Roboto', sans-serif;
+$robotos: 'Roboto Slab', serif;
+$open: 'Open Sans', sans-serif;
+
+/*Color Variables*/ 
+$base: #0cbdaa;
+$base2: #242c42;
+$base3: #cfd8df;
+$base4: #8b9ea9;
+$base5: #e9eef2;
+$base6: #49575f;
+$base7: #a4abaf;
+$base8: #f3f7fb;
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i,800|Roboto+Slab:300,400,700|Roboto:300,400,500,700,900';
+
+// Placeholder Mixins 
+@mixin placeholder {
+    &.placeholder { @content }
+    &:-moz-placeholder { @content }
+    &::-moz-placeholder { @content }
+    &::-webkit-input-placeholder { @content }
+}
+
+// Selection Color
+::selection{
+	background-color: #161822;
+    color: #fff;
+}  
+
+// Preloader Start
+
+body {
+    background: #fff;
+}
+
+.loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+.loader .center {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #0cbdaa;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    animation: center 3.2s ease-in-out infinite;
+}
+.loader .item {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: calc(50% - 5px);
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    background: #0cbdaa;
+    border-radius: 50%;
+}
+
+.item-1 {
+  animation: anim-1 3.2s ease-in-out infinite 0.2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes anim-1 {
+  0%, 60%, 100% {
+    transform: rotate(45deg) translateX(40px) scale(1);
+  }
+  10%, 50% {
+    transform: rotate(45deg) translateX(0) scale(1.5);
+  }
+}
+.item-2 {
+  animation: anim-2 3.2s ease-in-out infinite 0.4s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes anim-2 {
+  0%, 60%, 100% {
+    transform: rotate(90deg) translateX(40px) scale(1);
+  }
+  10%, 50% {
+    transform: rotate(90deg) translateX(0) scale(1.5);
+  }
+}
+.item-3 {
+  animation: anim-3 3.2s ease-in-out infinite 0.6s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes anim-3 {
+  0%, 60%, 100% {
+    transform: rotate(135deg) translateX(40px) scale(1);
+  }
+  10%, 50% {
+    transform: rotate(135deg) translateX(0) scale(1.5);
+  }
+}
+.item-4 {
+  animation: anim-4 3.2s ease-in-out infinite 0.8s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes anim-4 {
+  0%, 60%, 100% {
+    transform: rotate(180deg) translateX(40px) scale(1);
+  }
+  10%, 50% {
+    transform: rotate(180deg) translateX(0) scale(1.5);
+  }
+}
+.item-5 {
+  animation: anim-5 3.2s ease-in-out infinite 1s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes anim-5 {
+  0%, 60%, 100% {
+    transform: rotate(225deg) translateX(40px) scale(1);
+  }
+  10%, 50% {
+    transform: rotate(225deg) translateX(0) scale(1.5);
+  }
+}
+.item-6 {
+  animation: anim-6 3.2s ease-in-out infinite 1.2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes anim-6 {
+  0%, 60%, 100% {
+    transform: rotate(270deg) translateX(40px) scale(1);
+  }
+  10%, 50% {
+    transform: rotate(270deg) translateX(0) scale(1.5);
+  }
+}
+.item-7 {
+  animation: anim-7 3.2s ease-in-out infinite 1.4s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes anim-7 {
+  0%, 60%, 100% {
+    transform: rotate(315deg) translateX(40px) scale(1);
+  }
+  10%, 50% {
+    transform: rotate(315deg) translateX(0) scale(1.5);
+  }
+}
+.item-8 {
+  animation: anim-8 3.2s ease-in-out infinite 1.6s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes anim-8 {
+  0%, 60%, 100% {
+    transform: rotate(360deg) translateX(40px) scale(1);
+  }
+  10%, 50% {
+    transform: rotate(360deg) translateX(0) scale(1.5);
+  }
+}
+@keyframes center {
+  0%, 10%, 90%, 100% {
+    transform: scale(0.7);
+  }
+  45%, 55% {
+    transform: scale(1);
+  }
+}
+
+// Preloader End
+
+
+    
+
+

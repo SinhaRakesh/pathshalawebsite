@@ -1,0 +1,227 @@
+.contact_area{
+    padding: 100px 0 0;
+    .contact_top{
+        padding: 0 0 80px;
+        .contact_top_inner{
+            .contact_left{
+                .contact_title{
+                    position: relative;
+                    padding-right: 70px;
+                    &:before{
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        background: $base5;
+                        height: 1px;
+                        width: 100%;
+                    }
+                    h2{
+                        font: normal 30px/1 $robotos;
+                        color: $base2;
+                        text-transform: uppercase;
+                        padding-bottom: 30px;
+                    }
+                }
+                .office_address{
+                    padding: 80px 0 0;
+                    .single_address{
+                        h4{
+                            font: bold 20px/1 $roboto;
+                            color: #49575f;
+                            text-transform: uppercase;
+                            padding-bottom: 35px;
+                            letter-spacing: 2px;
+                        }
+                        h5{
+                            font: normal 16px/26px $roboto;
+                            color: $base4;
+                            max-width: 305px;
+                            padding-bottom: 25px;
+                        }
+                        ul{
+                            border-bottom: 1px dashed #000;
+                            margin-bottom: 25px;
+                            li{
+                                a{
+                                    padding: 0 0 20px;
+                                    i{
+                                        color: $base4;
+                                        font-size: 16px;
+                                    }
+                                    span{
+                                        font: normal 14px $roboto;
+                                        color: $base4;
+                                        letter-spacing: 0.2px;
+                                        padding-left: 10px;
+                                    }
+                                    &:hover{
+                                        background: transparent;
+                                    }
+                                }
+                            }
+                        }
+                        #googleMap{
+                            width:170px; 
+                            height:70px;
+                        }
+                    }
+                }
+            }
+            .contact_right{
+                .contact_title{
+                    position: relative;
+                    &:before{
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        background: $base5;
+                        height: 1px;
+                        width: 100%;
+                    }
+                    h2{
+                        font: normal 30px/1 $robotos;
+                        color: $base2;
+                        text-transform: uppercase;
+                        padding-bottom: 30px;
+                    }
+                }
+                .why_choose{
+                    margin: 0;
+                    padding-top: 80px;
+                    .single_item{
+                        border: 0;
+                        margin: 0;
+                        padding-bottom: 20px;
+                        &:last-child{
+                            padding-bottom: 0;
+                        }
+                        a{
+                            display: block;
+                            .panel_title{
+                                padding: 0 15px;
+                                position: relative;
+                                &:before{
+                                    content: '-';
+                                    position: absolute;
+                                    top: 0;
+                                    right: 28px;
+                                    display: inline-block;
+                                    font: normal 20px/50px $roboto;
+                                    color: $base;
+                                }
+                                h4{
+                                    font: normal 12px $roboto;
+                                    color: #49575f;
+                                    padding: 17px 14px;
+                                    text-transform: uppercase;
+                                    border-top: 1px dashed #cfd8df;
+                                    border-bottom: 1px dashed #cfd8df;
+                                }
+                            }
+                        }
+                        .collapsed{
+                            .panel-heading{
+                                &:before{
+                                    content: "+";
+                                }
+                            }
+                        }
+                        .panel-collapse{
+                            .panel-body{
+                                padding: 15px 15px 0;
+                                p{
+                                    padding: 10px 20px;
+                                    margin: 0;
+                                    font: normal 12px/25px $roboto;
+                                    color: $base4;
+                                    letter-spacing: 0.6px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact_bottom{
+        background: $base;
+        padding: 50px 0;
+        margin: 390px 0 0;
+        position: relative;
+        img{
+            position: absolute;
+            bottom: 180px;
+            left: 50%;
+            z-index: -1;
+            transform: translateX(-50%);
+        }
+        .newsletter{
+            position: relative;
+            .newsletter_inner{
+                .newsletter_left_area{
+                    h2{
+                        font: bold 30px/1 $robotos;
+                        color: $base5;
+                        letter-spacing: 0.6px;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                    }
+                    p{
+                        font: normal 16px/26px $roboto;
+                        color: $base5;
+                        letter-spacing: 0.6px;
+                        max-width: 665px;
+                        margin: 0;
+                    }
+                    i{
+                        position: absolute;
+                        bottom: -100px;
+                        left: -130px;
+                        font-size: 224px;
+                        opacity: 0.19;
+                    }
+                }
+                .newsletter_right_area{
+                    .input-group{
+                        input{
+                            width: 290px;
+                            height: 60px;
+                            padding: 25px;
+                            box-shadow: none;
+                            outline: none;
+                            border: 0;
+                        }
+                        span{
+                            button{
+                                width: 70px;
+                                height: 60px;
+                                font-size: 25px;
+                                color: $base;
+                                border: 0;
+                                margin-left: 1px;
+                                i{
+                                    
+                                }
+                                &:hover{
+                                    transform: rotate(360deg);
+                                    background: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact3_area{
+    padding: 0;
+    .contact_bottom{
+        margin: 0;
+    }
+}
