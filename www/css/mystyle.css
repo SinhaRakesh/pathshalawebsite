@@ -435,7 +435,7 @@
 
 .word-of-day-image{
     width:500px;
-    height:200px;
+    height:400px;
 }
 
 .home-recently-added .course_item .item_left_inner img{
@@ -472,4 +472,108 @@
 
 .news_area .news_inner .member_area .member .member_info p{
     color: gray !important;
+}
+
+
+footer{
+    padding-bottom: 0px !important;
+}
+
+footer .footer_top{
+ padding:0 0 0px !important;   
+}
+
+
+.search-small .pathshala-tool-search input{
+    width: 100%;
+    padding: 5px !important;
+    border-radius: 10px;
+    border: 2px solid #0cbdaa;
+}
+.search-small .pathshala-tool-search .row.panel-body {
+    padding: 0px !important
+}
+
+.search-small button{
+    background-color: #ff6a6a;
+    border: 2px solid #ff6a6a;
+}
+
+.search-small .panel-default.xepan-flc-form{
+    background-color: white !important;
+    border: none;
+    box-shadow: none;
+}
+
+.search-small .pathshala-tool-search button{
+    border-radius: 10px;
+    margin-top:0px; 
+}
+
+.pathshala-objective-answer{
+    color:#0cbdaa;
+}
+
+.page-paper .course_inner{
+    padding-top: 10px !important;
+}
+
+.page-paper .course_inner *{
+    font-size: 16px;
+}
+
+.page-paper .course_inner ul.row{
+    margin-top: 10px;
+}
+
+.page-paper .course_inner li{
+    margin-top: 5px;
+}
+
+.page-paper .course_lesson_inner{
+    margin-bottom: 20px;
+}
+
+button.papercloud:hover{
+    background-color: #0cbdaa !important;
+}
+
+button.papercloud:hover a{
+ color: white !important;   
+}
+
+
+.pathshala-dictionary-search span.select2-selection{
+    border: 2px solid #ff6a6a;
+}
+
+.path-btn{
+    background-color: #ff6a6a;
+    color: white;
+}
+
+.pathshala-dictionary-search:hover button {
+    background-color: #0cbdaa;
+    color: white;
+}
+
+.pathshala-dictionary-search:hover span.select2-selection {
+    border: 2px solid #0cbdaa;
+}
+
+.letter-button{
+    margin: 5px 5px 5px 5px;
+}
+
+.pathshala-dictionary-search{
+    width:50%;
+    margin:0 auto;
+}
+
+.path-dictinary-searchtool .word-detail span{
+    text-transform: capitalize;
+}
+
+.pathshala-recent-words{
+    margin-bottom: 20px;
 }
