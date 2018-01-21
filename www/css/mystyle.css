@@ -466,8 +466,9 @@
 .member_info h4{
     max-width: 100% !important;
     width: 100% !important;
-    height: 60px;
+    height: 55px;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .news_area .news_inner .member_area .member .member_info p{
@@ -576,4 +577,91 @@ button.papercloud:hover a{
 
 .pathshala-recent-words{
     margin-bottom: 20px;
+}
+
+.color-theme-info{
+    color: #5BC0DE;
+}
+.color-theme-blue{
+    color:#0cbdaa;
+}
+
+.contact-form input, .contact-form textarea{
+    width:100%;
+    padding: 5px;
+}
+
+.word-of-day-image{
+    /*border:5px solid #0cbdaa;*/
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px #0cbdaa;
+}
+
+.footer_bottom_area .footer_bottom{
+    padding: 0px !important;
+}
+
+.navbar-brand img{
+    width:250px;
+}
+
+.maxline {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   max-height: 80px;       /* fallback */
+   padding-right:10px; 
+}
+
+.home-recently-added .row.m0.course_inner,
+.news_area .news_inner {
+    padding: 0px 0px 30px 0px !important;
+}
+
+.mock-button{
+    font-size: 20px;
+    border:1px solid red;
+}
+
+.heading-middle{
+    font-size: 16px !important;
+    font-weight: bold;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.do-objective-answer{
+    color:blue;
+}
+
+.heading-box{
+    border:1px solid #f3f3f3;
+    width:auto !important;
+    padding: 10px;
+    color:#0cbdaa;
+}
+
+.word-date{
+    color:#0cbdaa;
+    font-size: 16px;
+}
+
+
+.heading{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color:#0cbdaa;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.pathshala-recent-words,.media-body.text-left{
+    text-transform: capitalize;
+}
+
+.footer_sidebar img{
+    width:100%;
 }

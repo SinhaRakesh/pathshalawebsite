@@ -1,0 +1,27 @@
+<div id="{$_name}" style="{$style}" class="{$class} ">
+  {rows}{row}
+  	<div class="media">
+	    <div class="media-left">
+	        <a href="{$slug_url}">
+	            <img class="media-object" style="width:67px;height: 67px;" src="{image}websites/pathshala/www/img/latest_news/1.jpg{/}" alt="#">
+	        </a>
+	    </div>
+	    <div class="media-body">
+	        <a href="{$slug_url}"><h6>{$name}</h6></a>
+	        <ul class="feedback">
+				<li><i class="fa fa-star active"></i></li>
+	            <li><i class="fa fa-star active"></i></li>
+	            <li><i class="fa fa-star active"></i></li>
+	            <li><i class="fa fa-star active"></i></li>
+	            <li><i class="fa fa-star"></i></li>
+	        </ul>
+		</div>
+	</div>
+	{/}{/}
+  	{not_found}
+  		<div role="alert" class="full-width alert alert-warning"><strong class="glyphicon glyphicon-warning-sign">&nbsp;Warning!<span>&nbsp;{$not_found_message}</span></strong></div>
+  	{/}
+  	{paginator_wrapper}
+  		<div style="float:none; clear:both" class="xepan-commerce-item-paginator">{$Paginator}</div>
+  	{/}
+</div>
