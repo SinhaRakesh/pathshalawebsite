@@ -665,3 +665,23 @@ button.papercloud:hover a{
 .footer_sidebar img{
     width:100%;
 }
+
+.list-group-item.custom_hover{
+    width:100% !important;
+}
+
+.list-group-item.Objective:hover,
+.list-group-item.Objective:hover a{
+    background: #0cbdaa;
+    color: white;
+}
+
+.list-group-item.Descriptive:hover,
+.list-group-item.Descriptive:hover a{
+    background: #5BC0DE;   
+    color: white !important;
+}
+
+.wordlist{
+    text-transform: capitalize;
+}
