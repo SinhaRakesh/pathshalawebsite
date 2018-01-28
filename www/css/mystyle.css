@@ -685,3 +685,7 @@ button.papercloud:hover a{
 .wordlist{
     text-transform: capitalize;
 }
+
+.dictionary-meta{
+    text-transform: capitalize;
+}
