@@ -689,3 +689,60 @@ button.papercloud:hover a{
 .dictionary-meta{
     text-transform: capitalize;
 }
+
+.do-objective-answer{
+    cursor: pointer;
+}
+
+.mock-form-section .atk-form-options > div{
+    margin-top:10px;
+}
+
+.mock-form-section .atk-form-options > div label{
+    margin-left: 5px;
+}
+
+.mock-next-button a,
+.mock-previous-button a{
+    width:100%;
+    color: white !important;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-size: 16px; 
+    border-radius: 5px;
+}
+
+.mock-next-button a{
+    background-color: #5cb85c;
+    border: 2px solid #4cae4c;
+}
+
+.mock-previous-button a{
+    background-color: #d9534f;
+    border: 2px solid #d43f3a;
+}
+
+.paginator-all-sequence{
+    margin-top:20px; 
+    padding: 5px;
+}
+
+.mock-timer{
+    font-size: 40px;
+}
+
+
+.portfolio a:hover{
+    background-color: white !important;
+    color:#0cbdaa !important;
+}
+
+.portfolio a:hover h3{
+    color:#0cbdaa !important;   
+}
+
+
+.portfolio_items .portfolio.mix_all:nth-last-child(1){
+    display: none !important;
+}
