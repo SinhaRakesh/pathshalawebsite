@@ -746,3 +746,34 @@ button.papercloud:hover a{
 .portfolio_items .portfolio.mix_all:nth-last-child(1){
     display: none !important;
 }
+
+.paginator-all-sequence a{
+    font: 700 11px/1 "Roboto Slab", serif;
+    letter-spacing: .6px;
+    color: #242c42;
+    background: #fafafa;
+    border: 1px dashed #cfd8df;
+    float: left;
+    margin: 0 10px 0;
+    padding: 6px 7px;
+    font-size: 15px;
+}
+
+.paginator-all-sequence a.ui-state-active{
+    color:#0cbdaa;
+    border: 2px solid #0cbdaa;
+}
+
+.login-icon{
+    width:50px;
+    height: 50px;
+    border-radius: 50% !important;
+    box-shadow: 2px 2px 2px;
+}
+
+.login-icon img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+    border: 2px solid #0cbdaa;
+}
