@@ -777,3 +777,26 @@ button.papercloud:hover a{
     border-radius: 50% !important;
     border: 2px solid #0cbdaa;
 }
+
+.path-color-btn{
+    color: #0cbdaa !important;
+    font: 400 14px/1 "Roboto", sans-serif;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 1px solid #0cbdaa;
+    height: 35px;
+    display: inline-block;
+    border-radius: 2px;
+    background: transparent;
+}
+
+.path-color-btn:hover{
+    background-color: #0cbdaa !important;
+    color:white !important;
+}
+
+.path-color-btn.selected{
+    background-color: #ff6a6a !important;
+    color: white !important;
+    font-weight: bold;
+}
