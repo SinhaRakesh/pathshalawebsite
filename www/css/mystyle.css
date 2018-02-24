@@ -747,6 +747,10 @@ button.papercloud:hover a{
     display: none !important;
 }
 
+# .filter{
+
+}
+
 .paginator-all-sequence a{
     font: 700 11px/1 "Roboto Slab", serif;
     letter-spacing: .6px;
@@ -799,4 +803,34 @@ button.papercloud:hover a{
     background-color: #ff6a6a !important;
     color: white !important;
     font-weight: bold;
+}
+
+.member-panel-tab{
+
+}
+
+.member-setting input,.member-setting select,.member-setting textarea{
+    width:100%;
+}
+
+.profile-image{
+    width:60px;
+}
+
+.original-img-preview{
+    max-width:100px;
+}
+
+#filter-list .filter{
+    margin: 0 20px 10px 20px;
+    border:1px solid #EEE;
+    padding: 10px;
+}
+
+#filter-list .filter.active{
+    border-color: #42c0d9;
+}
+
+#filter-list .filter:nth-last-child(1){
+    display: none !important;
 }

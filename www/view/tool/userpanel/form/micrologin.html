@@ -1,16 +1,15 @@
 
 <div class="xepan-login-panel text-center pull-right" style="font-size:16px;">
   {login_wrapper}
-    <a href="{$login_url}" class="btn btn-default path-color-btn selected">रजिस्टर</a>
-    <a href="registration" class="btn btn-default path-color-btn">साइन इन करें</a>
+    <a href="registration" class="btn btn-default path-color-btn selected">रजिस्टर</a>
+    <a href="{$login_url}" class="btn btn-default path-color-btn">साइन इन करें</a>
   {/}
   {logout_wrapper}
     <div class="input-group login-wrapper" title="{$username}">
-      <!-- <input type="text" class="form-control" aria-label="" value="{$username}"/> -->
-      <div class="input-group-btn">
-        <div type="button" class="dropdown-toggle login-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
-          <img src="{profile_img}websites/pathshala/www/img/logo/logo.png{/}"/>
-          <!-- <span class="caret"></span> -->
+      <span type="button" class="input-group-addon dropdown-toggle" data-toggle="dropdown" >{$username}</span>
+      <div class="input-group-btn" style="background-color: #EEEEEE; border-radius: 0px 5px 5px 0px;">
+        <div type="button" class="dropdown-toggle login-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor: pointer;float: left;"> 
+          <img src="{contact_image}websites/pathshala/www/img/logo/logo.png{/}"/>
         </div>
         <ul class="dropdown-menu dropdown-menu-right">
           <li class="dropdown-header" style="font-size: 20px;">{$username}</li>
