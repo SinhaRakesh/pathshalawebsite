@@ -537,10 +537,11 @@ footer .footer_top{
 
 button.papercloud:hover{
     background-color: #0cbdaa !important;
+    color:white;
 }
 
 button.papercloud:hover a{
- color: white !important;   
+ color: white !important;
 }
 
 
@@ -833,4 +834,59 @@ button.papercloud:hover a{
 
 #filter-list .filter:nth-last-child(1){
     display: none !important;
+}
+
+.home-slider-section{
+    background-color: #54BCE8;
+}
+
+.mock-left-col{
+    border-right:2px solid gray; 
+}
+.mock-right-col{
+
+}
+
+.mock-left-col .paper-detail{
+    font-size: 18px;
+    border:1px solid gray;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 5px;
+}
+
+.result-cell{
+    padding: 10px;
+}
+
+.result-cell.performance{
+    font-size: 20px;
+}
+
+.restart-btn{
+    margin-top: 10px;
+}
+
+.paper-container .container{
+    width:100%;
+}
+
+
+.papercloud strong{
+    color:white !important;
+}
+
+.papercloud{
+    background-color: #54BCE8;
+}
+.papercloud:hover strong{
+    color:white !important;
+}
+
+.page-paper,.paper-coursedetail{
+    border-right: 5px solid #f3f3f3;
+}
+
+.path-dictinary-searchtool{
+    text-transform: capitalize;
 }
