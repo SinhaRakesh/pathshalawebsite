@@ -890,3 +890,16 @@ button.papercloud:hover a{
 .path-dictinary-searchtool{
     text-transform: capitalize;
 }
+
+
+
+/*media screen*/
+@media only screen and (max-width: 1000px) {
+    .home-slider-section{
+        height: auto !important;
+    }
+    
+    /*.sky-mega-menu li.xshop-category{
+        width:100% !important;
+    }*/
+}
