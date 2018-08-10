@@ -108,9 +108,9 @@
     }
     
     /* Header Area */
-    .header_area .header_bottom .main_menu ul li a{
+    /*.header_area .header_bottom .main_menu ul li a{
         padding: 0 17px;
-    }
+    }*/
     .header_area .banner_area .banner_inner .banner_content h2{
         font-size: 40px;
         line-height: 50px;

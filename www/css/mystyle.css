@@ -603,7 +603,7 @@ button.papercloud:hover a{
 }
 
 .navbar-brand img{
-    width:250px;
+    width:180px;
 }
 
 .maxline {
@@ -899,7 +899,14 @@ button.papercloud:hover a{
         height: auto !important;
     }
     
-    /*.sky-mega-menu li.xshop-category{
-        width:100% !important;
-    }*/
+    section.course_area{
+        padding-top: 10px !important;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .main_menu .sky-mega-menu > li.xshop-category{
+        width: 100%;
+    }
 }
