@@ -385,21 +385,21 @@
 .grid-container3 a{
     line-height:1.6em !important;
     width:100% !important;
-	white-space:nowrap !important;
+    white-space:nowrap !important;
 }
 
  /*Define Your Custom CSS*/
  .pathshala-objective-answer{
- 	display: none;
+    display: none;
  }
 
  h4.do-objective-answer{
- 	cursor: pointer;
- 	padding-bottom: 0 px; !important
+    cursor: pointer;
+    padding-bottom: 0 px; !important
  }
 
  .pathshala-answer-section{
- 	padding-bottom: 10px;
+    padding-bottom: 10px;
  }
 
 .xepan-commerce-item-paginator{
@@ -909,4 +909,20 @@ button.papercloud:hover a{
     .main_menu .sky-mega-menu > li.xshop-category{
         width: 100%;
     }
+    
+    .about_us_area{
+        padding:25px 0 0px !important;
+    }
+    
+    .word-of-day-image{
+        width:100% !important;
+        height:auto;
+    }
+    .pathshala-dictionary-search{
+        width:100%;
+    }
 }
+
+    .about_us_area,.course_area,.news_area{
+        padding:25px 0 20px !important;
+    }
